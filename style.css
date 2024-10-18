@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+}
+
+p {
+    color: gray;
+    font-family: "Outfit", sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+a {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding-right: 15%;
+    gap: 2.5%;
+}
+
+.link {
+    color: gray;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 2.5%;
+}
+
+.header {
+    margin-bottom: 2.5%;
+}
+
+.image {
+    width: 35vw;
+}
+
+@media (max-width: 500px) {
+    .nav {
+        padding-right: 5%;
+    }
+    
+    .flex {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
